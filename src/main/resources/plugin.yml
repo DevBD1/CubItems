@@ -1,6 +1,12 @@
 name: CubItems
-version: '1.0.0'
+version: '1.0.1'
 main: com.DevBD1.cubItems.Main
 api-version: '1.21'
 authors: [ DevBD1 ]
 website: https://cublex.net
+softdepend: [Corlex]
+commands:
+  giveitem:
+    description: Gives a custom item from items.yml
+    usage: /giveitem <item-key>
+    permission: cubitems.giveitem

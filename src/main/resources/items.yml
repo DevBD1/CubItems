@@ -1,0 +1,15 @@
+items:
+  strength_sword:
+    material: DIAMOND_SWORD
+    display_name: "&cSword of Strength" # it is static and custom
+    lore:
+      # you can add as many languages as you want.
+      en:
+        - "&7A sharp blade."
+        - "&c+10 Strength"
+      tr:
+        - "&7Keskin bir kılıç."
+        - "&c+10 Güç"
+    nbt:
+      customKey: strength_sword # it makes the item unique and if you have Corlex installed, it will apply client-side lore based on the client's locale
+      rarity: "epic" # to be added in next versions
