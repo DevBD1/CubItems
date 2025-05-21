@@ -11,7 +11,7 @@
 
 - 📦 YAML-defined custom items
 - 🏷️ Automatic NBT tagging for identification
-- 🧙 Dynamic lore powered by [Corlex](https://github.com/YourName/Corlex)
+- 🧙 Dynamic lore powered by [Corlex](https://github.com/DevBD1/CubItems)
 - 🌍 Multilingual support with fallback
 - 🚀 Fully client-side fake lore with ProtocolLib
 - 💡 Easy item distribution with `/giveitem <key>`
@@ -30,6 +30,8 @@
 ## 🧪 Commands
 Command Description
 /giveitem <key> Gives a registered item
+
+---
 
 ## 🧩 Requirements
 - Paper 1.20+ or 1.21+
