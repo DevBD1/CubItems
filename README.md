@@ -31,6 +31,10 @@
 Command Description
 /giveitem <key> Gives a registered item
 
+Command | Description | Permission | Group
+--- | --- | --- | --- 
+/giveitem <key> | Gives a registered item | cubitems.giveitem | cubitems.admin
+
 ---
 
 ## 🧩 Requirements
