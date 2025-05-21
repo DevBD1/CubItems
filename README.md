@@ -2,12 +2,12 @@
 
 ✨ Custom item framework for Minecraft servers.  
 🧱 Define items via YAML.  
-🌐 Supports Corlex for localized client-side lore.  
+🌐 Supports [Corlex](https://github.com/DevBD1/CubItems) for localized client-side lore.  
 🔗 Works seamlessly with ProtocolLib.
 
 ---
 
-## ✅ Features
+## ✨ Features
 
 - 📦 YAML-defined custom items
 - 🏷️ Automatic NBT tagging for identification
@@ -20,25 +20,22 @@
 
 ## 📥 Installation
 
-- Place CubItems.jar in /plugins
-- Make sure Corlex is installed
-- Install ProtocolLib
-- Restart server
+- Stop the server
+- Place ```CubItems.jar``` in ```/plugins```
+- Install [ProtocolLib](https://ci.dmulloy2.net/job/ProtocolLib/)
+- Install [Corlex](https://github.com/DevBD1/CubItems) if you want client-side lore implementation
+- Start the server
 
 ---
 
-## 🧪 Commands
-Command Description
-/giveitem <key> Gives a registered item
-
-Command | Description | Permission | Group
+Commands | Description | Permission | Group
 --- | --- | --- | --- 
 /giveitem <key> | Gives a registered item | cubitems.giveitem | cubitems.admin
 
 ---
 
 ## 🧩 Requirements
-- Paper 1.20+ or 1.21+
+- Spigot or Paper 1.21+
 - ProtocolLib
 - Corlex (optional but recommended)
 
@@ -51,7 +48,7 @@ Use the cubItems NBT key to identify and extend custom items across your plugin 
 ---
 
 ## 📄 License
-MIT — do what you want, give credit if you like it.
+MIT — do what you want, give credit.
 
 ---
 
