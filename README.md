@@ -18,6 +18,35 @@
 
 ---
 
+📥 Installation
+	1.	Place CubItems.jar in /plugins
+	2.	Make sure Corlex is installed
+	3.	Install ProtocolLib
+	4.	Restart server
+
+🧪 Commands
+Command
+Description
+/giveitem <key>
+Gives a registered item
+
+🧩 Requirements
+	•	Paper 1.20+ or 1.21+
+	•	ProtocolLib
+	•	Corlex (optional but recommended)
+
+⸻
+
+🛠 Developers
+
+Use the cubItems NBT key to identify and extend custom items across your plugin ecosystem.
+
+⸻
+
+📄 License
+MIT — do what you want, give credit if you like it.
+
+
 ## 🔧 Example `items.yml`
 
 ```yaml
@@ -34,3 +63,5 @@ items:
         - "&c+10 Güç"
     nbt:
       customKey: strength_sword
+
+
